@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PizzaMobile.View.PizzaPage1"
+             Title="PizzaPage1">
+    <CollectionView ItemsSource="{Binding Pizzas}">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <!-- Ваш код для отображения каждой пиццы здесь -->
+                <Grid Padding="10">
+                    <!-- Пример: отображение изображения и имени пиццы -->
+                    <Image Aspect="AspectFill" Source="{Binding ImageName}" />
+                    <Label Text="{Binding Name}" />
+                </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>

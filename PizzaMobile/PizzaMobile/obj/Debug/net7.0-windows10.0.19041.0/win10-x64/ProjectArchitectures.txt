@@ -1,0 +1,1 @@
+D:\Project\Kursach\PizzaMobile\PizzaMobile\PizzaMobile.csproj;x64

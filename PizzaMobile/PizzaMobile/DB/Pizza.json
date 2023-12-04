@@ -1,0 +1,10 @@
+[
+  {
+    "ID": "Piz1",
+    "Name": "Четыре сыра",
+    "weightS": 310,
+    "weightM": 470,
+    "weightL": 640,
+    "ImageName" :  "cheez.jpg"
+  }
+]
